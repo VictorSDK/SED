@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SED.Models
+{
+    public class SportEventSearchOptions
+    {
+        public string SporEventName { get; set; }
+        //public string Description { get; set; }
+
+        //public DateTime? Date { get; set; }
+        //public int? Rating { get; set; }
+        public string LocationName { get; set; }
+
+        public string ActivityTypeName { get; set; }
+
+    }
+}
